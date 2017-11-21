@@ -1,0 +1,57 @@
+#footer{
+	font-family: Times New Roman;
+	text-align: center;
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	background-color: royalblue;
+	color: whitesmoke;
+	border: 2px solid black;
+    font-size: 85%;
+    font-style: italic;
+	}
+#header{
+	text-align: center;
+    font-family: Arial;
+	}
+body{
+	background-color: skyblue;
+	}
+nav{
+	background-color: whitesmoke;
+	border: 2px solid black;
+	color: royalblue;
+	text-align: center;
+    font-family: Arial;
+	}
+a:link{
+	color: #4B0082;
+	}
+a:visited{
+    color: royalblue;
+}
+#main_content{
+	border: 4px dotted black;
+    font-size: 110%;
+    font-family: Veranda;
+    text-align: center;
+}
+h3{
+    font-size: 140%;
+    font-style: italic;
+    font-family: helvetica;
+}
+.button{
+    background-color: #00CED1; 
+    border-radius: 12px; 
+    padding: 10px 20px; 
+    border: 2px black solid;
+    box-shadow: 0 7px #999;
+}
+.button:hover {background-color: greenyellow}
+
+.button:active {
+    background-color: greenyellow;
+    box-shadow: 0 4px #666;
+    transform: translateY(4px);
+}

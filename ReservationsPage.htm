@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Make a Reservation</title>
+    <link rel="stylesheet" href="FinalStyleSheet.css" type="text/css" />
+    <script type="text/javascript" src="Reservationz_Function.js">
+        
+    </script>
+</head>
+<body>
+    <nav>
+<br>
+	Menu:
+	<a href="busline_home.htm"> Homepage</a>  |  
+	<a href="ReservationsPage.htm"> Make a Reservation</a>  |  
+	<a href="MailingList.htm"> Join Mailing List</a>  |  
+	<a href="ContactUs.htm"> Contact Us</a>
+<br><br>
+    </nav>    
+    <div id="header" style="text-align:center">
+        <h1>Shift Swiftly Travel Agency</h1>
+        <img src="download.jpg" alt="Logo" width="250">
+        <br>
+ 
+        <h2>Make a Reservation</h2>
+    </div>
+   
+       <form name="resinfo">
+            
+           <h4><p>Last Name <input type="text" id="tfn" name="lastName" placeholder="Last Name"/></p></h4>
+
+           <h4><p>First Name <input type="text" id="tfn" name="firstName" placeholder="First Name"/></p></h4>
+
+
+           <br><br>
+
+
+           <h4><p>Arrival City</p></h4>
+                <p><input type="radio" name="destination"/>St. Louis &#40;$40&#41;</p>
+                <p><input type="radio" name="destination"/>Milwaukee &#40;$20&#41;</p>
+                <p><input type="radio" name="destination"/>Detroit &#40;$35&#41;</p>
+
+            <br><br>
+
+
+           <h4><p>Hotel Choice</p></h4>
+                <p><input type="radio" name="hotel"/>Economy &#40;$50/day&#41;</p>
+                <p><input type="radio" name="hotel"/>Standard &#40;$70/day&#41;</p>
+                <p><input type="radio" name="hotel"/>Upscale &#40;$120/day&#41;</p>
+
+
+       <br><br>
+
+           <h4><p>Number of Travelers</p></h4><select name="numTravelers">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+
+
+          <br><br>
+
+
+           <h4><p>Number of Days</p></h4><select name="numDays">
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+
+
+           <br>
+           <br>
+
+
+           <h4><p>Extra Comodities</p></h4>
+                <p><input type="checkbox" name="Wifi" /> WiFi &#40;$10&#41;</p>
+                <p><input type="checkbox" name="Recline" /> Fully Reclining Seat &#40;$20&#41;</p>
+
+
+           <br>
+
+
+           <h4><p>Meal Options</p></h4>
+                <p><input type="radio" name="meal" checked/>None</p>
+                <p><input type="radio" name="meal"/>Snack &#40;$5&#41;</p>
+                <p><input type="radio" name="meal"/>Full Meal &#40;$10&#41;</p>
+
+
+           <br><br>
+           
+           <h4><p>Special Requests:</p></h4>
+             <p><textarea name="txtarReq" id="specreq" col="25" rows="5" placeholder="Optional"></textarea></p>
+
+           <br><br>
+           
+           <h4><p><input type="button" class="button" value="Book My Trip" onclick="ReservationInfo()" /></p></h4>
+    
+    
+    </form><br>
+    <p id="p1" style="font-family: Verdana; font-size: 100%; font-style: italics; text-align: center;"></p>
+<br><br>
+
+<div id="footer">
+<br><br>
+	<p>Phone Number: 846-787-1124 | Address: 2345 Hubbard Street, Chicago, Il 60614</p>
+<br><br>
+</div>
+</body>
+</html>
